@@ -1,14 +1,16 @@
 {
-  "name": "frontend",
+  "name": "backend",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
-  "homepage": "https://maiwei-edu.github.io//maiwei-edu-backend",
+  "homepage": "http://maiwei-edu.github.io/maiwei-edu-backend",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.3",
     "@types/plupload": "^2.0.10",
