@@ -1,1 +1,0 @@
-import{b as e,j as s,bK as t}from"./index-b4683d61.js";import{i as n}from"./icon-option-c9fff0bb.js";const l=i=>{const a=e(),o=()=>{a(i.value)};return s.jsx("div",{className:t["options-link"],children:s.jsxs("div",{className:t.link,onClick:()=>o(),children:[s.jsx("img",{src:n}),i.text]})})};export{l as O};

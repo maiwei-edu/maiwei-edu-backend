@@ -1,1 +1,0 @@
-import{c as t}from"./index-b4683d61.js";function a(){return t.get("/backend/api/v1/role",{})}function o(e){return t.post("/backend/api/v1/role",e)}function i(e){return t.get(`/backend/api/v1/role/${e}`,{})}function u(e,n){return t.put(`/backend/api/v1/role/${e}`,n)}function c(e){return t.destroy(`/backend/api/v1/role/${e}`)}export{i as a,c as d,a as l,o as s,u};

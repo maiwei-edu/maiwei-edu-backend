@@ -1,1 +1,0 @@
-import{c as e}from"./index-b4683d61.js";function s(t){return e.get("/backend/addons/Snapshot/images",t)}function a(t){return e.post("/backend/addons/Snapshot/images/delete/multi",t)}export{a as d,s as l};
